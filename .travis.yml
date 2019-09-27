@@ -13,6 +13,6 @@ matrix:
     sudo: true
 fail_fast: true
 before_install:
-- pip install pycodestyle
+- pip install flake8
 script:
-- pycodestyle .
+- flake8 .
