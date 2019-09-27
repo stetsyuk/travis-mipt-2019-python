@@ -14,5 +14,7 @@ x += y
 def f(z, a=16):
     return z + a
 
+
 q = f(14)
 print(f(45, q))
+sys.exit(0)
